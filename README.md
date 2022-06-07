@@ -1,2 +1,2 @@
-WIP Memory Card Game 
+# WIP Memory Card Game 
 to launch it type `ng serve`
