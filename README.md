@@ -1,1 +1,2 @@
-WIP Memory Card Game start with ng serve
+WIP Memory Card Game 
+to launch it type `ng serve`
