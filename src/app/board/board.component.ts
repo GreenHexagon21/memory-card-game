@@ -37,7 +37,7 @@ export class BoardComponent implements OnInit {
   fetchJson() :void {
     let data: Jsoner;
 
-    fetch('https://e621.net/posts.json?tags=set%3Acute_foxes')
+    fetch('https://e926.net/posts.json?tags=set%3Adrate')
     .then(function(response) {
       return response.json();
     })
