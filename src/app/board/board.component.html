@@ -1,5 +1,6 @@
-<div *ngFor="let i of cards">
-    <mat-card class="card">
-        <img mat-card-image src="{{i.picture}}" alt="{{i.id}}">
-    </mat-card>
+
+<div class="container">
+    <ng-container *ngFor="let card of cards">
+        <mcg-card [card]="card">Test</mcg-card>
+    </ng-container>
 </div>

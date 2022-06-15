@@ -1,0 +1,11 @@
+.card {
+    width: 400px;
+}
+
+.center-cropped {
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+  }

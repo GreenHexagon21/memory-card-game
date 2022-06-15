@@ -1,4 +1,6 @@
-
-<mat-card class="card">
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-</mat-card>
+<div (click)="turn()">
+<img *ngIf="card.state == 'default'; else actualCard" class="center-cropped mat-elevation-z10" src="https://s3.pixers.pics/pixers/700/FO/61/12/14/2/700_FO6112142_158b444f6a4395d89a463dd577bfbf3f.jpg" alt="{{card.id}}" />
+<ng-template #actualCard>
+    <img  class="center-cropped mat-elevation-z10"  src="{{card.picture}}" alt="{{card.id}}" />
+</ng-template>
+</div>

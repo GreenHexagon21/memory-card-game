@@ -1,7 +1,7 @@
 export interface Card {
     id: number;
     pairId: number;
-    isTurned : boolean;
+    state : 'default' | 'flipped' | 'matched';
     shape : string;
     picture : string;
 }

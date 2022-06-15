@@ -1,3 +1,21 @@
 .card {
     width: 400px;
 }
+
+.center-cropped {
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    width: 44rem;
+    justify-content: center;
+    align-items: center;
+}
